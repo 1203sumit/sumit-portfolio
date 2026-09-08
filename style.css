@@ -357,10 +357,12 @@ body {
 ========================= */
 
 .experience-grid {
+  .experience-grid {
     display: grid;
-    grid-template-columns: minmax(0, 1.7fr) minmax(300px, 0.8fr);
+    grid-template-columns: 1fr 1fr;
     gap: 35px;
     align-items: start;
+}
 }
 
 .experience-card {
