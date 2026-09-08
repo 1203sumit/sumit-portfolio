@@ -357,12 +357,10 @@ body {
 ========================= */
 
 .experience-grid {
-  .experience-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 35px;
     align-items: start;
-}
 }
 
 .experience-card {
@@ -370,6 +368,7 @@ body {
     min-width: 0;
     height: auto !important;
 }
+
 
 .experience-duration {
     color: #64748b;
